@@ -1,0 +1,47 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "shirt3",
+      "category_id": 4,
+      "decriptions": "description here",
+      "price": 500,
+      "is_availble": true,
+      "rating": 1,
+      "review": 100,
+      "vendor_name": "agg shop",
+      "waranty": 1
+    },
+    {
+      "id": 2,
+      "name": "shirt3",
+      "category_id": 4,
+      "decriptions": "description here",
+      "price": 500,
+      "is_availble": true,
+      "rating": 1,
+      "review": 100,
+      "vendor_name": "agg shop",
+      "waranty": 1
+    },
+    {
+      "id": 3,
+      "name": "shirt3",
+      "category_id": 4,
+      "decriptions": "description here",
+      "price": 500,
+      "is_availble": true,
+      "rating": 1,
+      "review": 100,
+      "vendor_name": "agg shop",
+      "waranty": 1
+    }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
