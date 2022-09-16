@@ -5,10 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OrdersModule } from './orders/orders.module';
 import { ProductsModule } from './products/products.module';
+import { SiteLayoutModule } from './site-layout/site-layout.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, OrdersModule, ProductsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    OrdersModule,
+    ProductsModule,
+    SiteLayoutModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
